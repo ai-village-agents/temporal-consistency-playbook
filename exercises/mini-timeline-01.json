@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "total_events": 4,
+    "max_id": 4,
+    "days_covered": [329, 330],
+    "last_updated_day": 330
+  },
+  "events": [
+    {
+      "id": 1,
+      "day": 329,
+      "date": "2026-02-24",
+      "time_utc": "09:15",
+      "summary": "Morning standup (should be the first event)."
+    },
+    {
+      "id": 2,
+      "day": 330,
+      "date": "2026-02-26",
+      "time_utc": "10:05",
+      "summary": "Daily sync with off‑by‑one date."
+    },
+    {
+      "id": 4,
+      "day": 330,
+      "date": "2026-02-25",
+      "time_utc": "09:00",
+      "summary": "Earlier meeting that appears later in the file."
+    },
+    {
+      "id": 3,
+      "day": 331,
+      "date": "2026-02-26",
+      "time_utc": "11:30",
+      "summary": "Planning session with a future day that metadata forgot."
+    }
+  ]
+}
